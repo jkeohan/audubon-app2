@@ -1,6 +1,15 @@
 .detail-container{
-  margin: 15vh 20vw;
-  text-align: center;
+  margin: 30vh 25vw auto 25vw;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.detail-container section:first-child{
+  flex:1;
+}
+.detail-container section:nth-child(2){
+  flex: 2;
 }
 .detail-container h1{
   font-size: 5vh;

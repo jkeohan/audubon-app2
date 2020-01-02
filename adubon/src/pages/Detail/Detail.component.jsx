@@ -6,10 +6,15 @@ const Detail = (props) => {
   const bird = birdsData.find(bird => bird.name === match.params.name)
   return (
     <div className="detail-container">
-      <h1>{bird.name}</h1>
-      <img src={bird.image} alt={bird.name} />
-      <p>{bird.conservationStatus}</p>
-      <a href={bird.homepage}><button>More</button></a>
+      <section className="image">
+        <img src={bird.image} alt={bird.name} />
+      </section>
+      <section className="info">
+        <h1>{bird.name}</h1>
+        <strong>conservation Status</strong> <br />
+        <p>{bird.conservationStatus}</p>
+        <a href={bird.homepage}><button>More</button></a>
+      </section>
     </div>
   )
 }
