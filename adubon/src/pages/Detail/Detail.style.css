@@ -1,0 +1,33 @@
+.detail-container{
+  margin: 15vh 20vw;
+  text-align: center;
+}
+.detail-container h1{
+  font-size: 5vh;
+  font-weight: 300;
+}
+img{
+  margin: 10vh 0;
+  width: 20vmin;
+  height: auto;
+}
+.detail-container p{
+  font-weight: 100;
+}
+button{
+  margin: 5vmin 0;
+  width: 15vmin;
+  height: 7vmin;
+  border-radius: 20px;
+  border: none;
+  font-size: 3vmin;
+  color: white;
+  background: grey;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+button:hover{
+  color: grey;
+  background: white;
+  box-shadow: 1px 1px 3px grey;
+}

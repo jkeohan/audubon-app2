@@ -1,0 +1,28 @@
+.header{
+  position: fixed;
+  top:0;
+  left:0;
+  height: 10vmin;
+  width: 100vw;
+  color: white;
+  background: grey;
+  padding: 0.5vmin 10vmin;
+}
+.header-link{
+  text-decoration: none;
+  color: white;
+  padding: 0 10vmin;
+  margin: 0;
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 3vmin;
+  height: 10.5vmin;
+  display: table;
+}
+.header-link h2{
+  display: inline-block;
+  padding: 0;
+  margin:0;
+  display: table-cell;
+  vertical-align: middle;
+}

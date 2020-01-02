@@ -1,0 +1,36 @@
+.container{
+  margin: 11vh 7vw;
+  text-align: center;
+}
+.each-home-bird{
+  width: 30vmin;
+  height: 32vmin;
+  display: inline-block;
+  margin: 10vmin;
+}
+
+.img{
+  width: 30vmin;
+  height: 30vmin;
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: all 250ms ease;
+}
+h1{
+  font-size: 20px;
+  font-weight: 200;
+  transition: all 250ms ease;
+  color: black;
+}
+.each-home-bird:hover h1{
+  color: grey;
+}
+.each-home-bird:hover .img{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+}
